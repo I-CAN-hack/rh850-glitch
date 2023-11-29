@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rh850-glitch"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+chipwhisperer = {git = "https://github.com/newaetech/chipwhisperer.git"}
+ipywidgets = "^8.1.1"
+holoviews = "^1.18.1"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
