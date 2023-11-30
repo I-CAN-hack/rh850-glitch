@@ -11,6 +11,8 @@ chipwhisperer = {git = "https://github.com/newaetech/chipwhisperer.git"}
 ipywidgets = "^8.1.1"
 holoviews = "^1.18.1"
 jupyter = "^1.0.0"
+chipshouter = {git = "https://github.com/newaetech/ChipSHOUTER-python.git"}
+matplotlib = "^3.8.2"
 
 
 [build-system]
