@@ -1,20 +1,17 @@
-[tool.poetry]
+[project]
 name = "rh850-glitch"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chipwhisperer",
+    "exscript>=2.6.28",
+    "holoviews>=1.20.2",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.3",
+    "notebook>=7.4.2",
+]
 
-[tool.poetry.dependencies]
-python = "^3.11"
-chipwhisperer = {git = "https://github.com/newaetech/chipwhisperer.git"}
-ipywidgets = "^8.1.1"
-holoviews = "^1.18.1"
-jupyter = "^1.0.0"
-chipshouter = {git = "https://github.com/newaetech/ChipSHOUTER-python.git"}
-matplotlib = "^3.8.2"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[tool.uv.sources]
+chipwhisperer = { git = "https://github.com/newaetech/chipwhisperer.git" }
